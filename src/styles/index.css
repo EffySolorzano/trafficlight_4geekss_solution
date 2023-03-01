@@ -10,3 +10,59 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.body{
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    margin: auto;
+    border-radius: 35px;
+    padding-top: 20px;
+}
+.red-light{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.yellow-light{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.green-light{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.red-light-active{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgba(158, 54, 54, 0.822);
+}
+.yellow-light-active{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgba(252, 228, 123, 0.822);
+}
+.green-light-active{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgba(85, 255, 113, 0.822);
+}
